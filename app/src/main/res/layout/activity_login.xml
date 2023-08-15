@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="@color/colorBackground">
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,15 +16,18 @@
     android:layout_marginRight="30dp"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/colorBackground"
     tools:context=".LoginActivity">
-
+z
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOGIN"
         android:layout_margin="30dp"
         android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textColor="@color/colorText"
+        />
     <EditText
         android:id="@+id/txEmail"
         android:layout_width="match_parent"
@@ -40,3 +50,4 @@
         android:layout_marginBottom="10dp"
         style="@style/Widget.AppCompat.Button.Colored"/>
 </LinearLayout>
+</RelativeLayout>

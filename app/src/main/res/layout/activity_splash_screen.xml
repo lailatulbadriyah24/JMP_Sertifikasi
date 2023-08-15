@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity"
-    android:id="@+id/splash_screen">
+    android:id="@+id/splash_screen"
+    android:background="@color/colorBackground">
 
     <ImageView
         android:layout_width="200dp"
@@ -16,5 +17,4 @@
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerCrop"
         android:src="@drawable/logo"/>
-
 </RelativeLayout>

@@ -14,12 +14,14 @@
         android:layout_height="wrap_content"
         android:text="SELAMAT DATANG"
         android:textStyle="bold"
-        android:textSize="25sp"/>
+        android:textSize="25sp"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16sp"
         android:text="Login Sukses!"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textColor="@color/colorText"/>
 </LinearLayout>
